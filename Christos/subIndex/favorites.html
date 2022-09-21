@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+   <!-- 
     <style>
         .title
         {
@@ -13,14 +14,55 @@
             text-align: center;
             width: 50%;
             padding: 10px;
-            
         }
+    </style>
+    -->
 
+    <style>
+        .albums
+        {
+            font-size: x-large;
+        }
+        .listMusic
+        {
+            list-style: none;
+        }
+        
 
     </style>
 </head>
 <body>
     
     <h1 class="title">Favorite stuff</h1>
+
+<div class="albums">
+    <p class = "pg">Favorite albums:</p>
+    <ul class="listMusic">
+        <li> 
+            <a href="https://open.spotify.com/album/252LyflX4wUeISSzgL392F">
+                <img src = "subImages/closetotheedge.jpg" width = "150" height = "150"></img>
+            </a> 
+            <span>Close to the edge - Yes</span>     
+        </li>
+        <li> 
+            <a href="https://open.spotify.com/album/2e5TG0TyL4Q1HvW4w2O8FP">
+                <img src = "subImages/polygondwanaland.jpg" width = "150" height = "150"></img>
+            </a>
+             <span>Polygondwanaland - King Gizzard</span>
+            </li>
+        <li> 
+            <a href="https://open.spotify.com/album/7KxUQCCvE0edGiqBS6ywEd">
+                <img src = "subImages/discipline.jpg" width = "150" height = "150"> </img>
+            </a>
+            <span>Discipline - King Crimson</span>
+            
+        </li>
+    </ul>
+</div>
+
+<p>One of my favorite songs from the Close To The Edge album: </p>
+<audio src="subImages/Yes - Siberian Khatru.mp3" controls></audio>
+
+
 </body>
 </html>
